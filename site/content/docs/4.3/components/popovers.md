@@ -101,7 +101,7 @@ Use the `focus` trigger to dismiss popovers on the user's next click of a differ
 {{< callout danger >}}
 #### Specific markup required for dismiss-on-next-click
 
-For proper cross-browser and cross-platform behavior, you must use the `<a>` tag, _not_ the `<button>` tag, and you also must include a [`tabindex`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute.
+For proper cross-browser and cross-platform behavior, you must use the `<a>` tag, _not_ the `<button>` tag, and you also must include a [`tabindex`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/tabindex) attribute.
 {{< /callout >}}
 
 {{< example >}}

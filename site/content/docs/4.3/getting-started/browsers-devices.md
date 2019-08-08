@@ -101,7 +101,7 @@ Similarly, the latest versions of most desktop browsers are supported.
   </tbody>
 </table>
 
-For Firefox, in addition to the latest normal stable release, we also support the latest [Extended Support Release (ESR)](https://www.mozilla.org/en-US/firefox/organizations/#faq) version of Firefox.
+For Firefox, in addition to the latest normal stable release, we also support the latest [Extended Support Release (ESR)](https://www.mozilla.org/firefox/organizations/#faq) version of Firefox.
 
 Unofficially, Bootstrap should look and behave well enough in Chromium and Chrome for Linux, Firefox for Linux, and Internet Explorer 9, though they are not officially supported.
 
@@ -123,7 +123,7 @@ As of iOS 9.2, while a modal is open, if the initial touch of a scroll gesture i
 
 ### Navbar Dropdowns
 
-The `.dropdown-backdrop` element isn't used on iOS in the nav because of the complexity of z-indexing. Thus, to close dropdowns in navbars, you must directly click the dropdown element (or [any other element which will fire a click event in iOS](https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile)).
+The `.dropdown-backdrop` element isn't used on iOS in the nav because of the complexity of z-indexing. Thus, to close dropdowns in navbars, you must directly click the dropdown element (or [any other element which will fire a click event in iOS](https://developer.mozilla.org/docs/Web/Events/click#Safari_Mobile)).
 
 ## Browser zooming
 

@@ -12,7 +12,7 @@
   browser: >
     Edge
   summary: >
-    Implement the [`:dir()` pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:dir) from Selectors Level 4
+    Implement the [`:dir()` pseudo-class](https://developer.mozilla.org/docs/Web/CSS/:dir) from Selectors Level 4
   upstream_bug: >
     UserVoice#12299532
   origin: >
@@ -22,7 +22,7 @@
   browser: >
     Edge
   summary: >
-    Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+    Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/docs/Web/HTML/Element/dialog)
   upstream_bug: >
     UserVoice#6508895
   origin: >
@@ -32,7 +32,7 @@
   browser: >
     Edge
   summary: >
-    Fire a [`transitioncancel` event](https://developer.mozilla.org/en-US/docs/Web/Events/transitioncancel) when a CSS transition is canceled
+    Fire a [`transitioncancel` event](https://developer.mozilla.org/docs/Web/Events/transitioncancel) when a CSS transition is canceled
   upstream_bug: >
     UserVoice#15939898
   origin: >
@@ -62,7 +62,7 @@
   browser: >
     Firefox
   summary: >
-    Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+    Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/docs/Web/HTML/Element/dialog)
   upstream_bug: >
     Mozilla#840640
   origin: >
@@ -82,7 +82,7 @@
   browser: >
     Chrome
   summary: >
-    Fire a [`transitioncancel` event](https://developer.mozilla.org/en-US/docs/Web/Events/transitioncancel) when a CSS transition is canceled
+    Fire a [`transitioncancel` event](https://developer.mozilla.org/docs/Web/Events/transitioncancel) when a CSS transition is canceled
   upstream_bug: >
     Chromium#642487
   origin: >
@@ -102,7 +102,7 @@
   browser: >
     Chrome
   summary: >
-    Implement the [`:dir()` pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:dir) from Selectors Level 4
+    Implement the [`:dir()` pseudo-class](https://developer.mozilla.org/docs/Web/CSS/:dir) from Selectors Level 4
   upstream_bug: >
     Chromium#576815
   origin: >
@@ -112,7 +112,7 @@
   browser: >
     Safari
   summary: >
-    Fire a [`transitioncancel` event](https://developer.mozilla.org/en-US/docs/Web/Events/transitioncancel) when a CSS transition is canceled
+    Fire a [`transitioncancel` event](https://developer.mozilla.org/docs/Web/Events/transitioncancel) when a CSS transition is canceled
   upstream_bug: >
     WebKit#161535
   origin: >
@@ -122,7 +122,7 @@
   browser: >
     Safari
   summary: >
-    Implement the [`:dir()` pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:dir) from Selectors Level 4
+    Implement the [`:dir()` pseudo-class](https://developer.mozilla.org/docs/Web/CSS/:dir) from Selectors Level 4
   upstream_bug: >
     WebKit#64861
   origin: >
@@ -132,7 +132,7 @@
   browser: >
     Safari
   summary: >
-    Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+    Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/docs/Web/HTML/Element/dialog)
   upstream_bug: >
     WebKit#84635
   origin: >

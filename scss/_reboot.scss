@@ -44,7 +44,7 @@ body {
 // or the browser has somehow determined that the user is primarily a keyboard user and/or
 // wants focus outlines to always be presented.
 //
-// See https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
+// See https://developer.mozilla.org/docs/Web/CSS/:focus-visible
 // and https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/
 
 [tabindex="-1"]:focus:not(:focus-visible) {

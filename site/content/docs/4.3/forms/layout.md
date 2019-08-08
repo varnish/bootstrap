@@ -10,7 +10,7 @@ toc: true
 
 Every group of form fields should reside in a `<form>` element. Bootstrap provides no default styling for the `<form>` element, but there are some powerful browser features that are provided by default.
 
-- New to browser forms? Consider reviewing [the MDN form docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) for an overview and complete list of available attributes.
+- New to browser forms? Consider reviewing [the MDN form docs](https://developer.mozilla.org/docs/Web/HTML/Element/form) for an overview and complete list of available attributes.
 - `<button>`s within a `<form>` default to `type="submit"`, so strive to be specific and always include a `type`.
 - You can disable every form element within a form with the `disabled` attribute on the `<form>`.
 

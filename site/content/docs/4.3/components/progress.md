@@ -8,7 +8,7 @@ toc: true
 
 ## How it works
 
-Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don't use [the HTML5 `<progress>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress), ensuring you can stack progress bars, animate them, and place text labels over them.
+Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don't use [the HTML5 `<progress>` element](https://developer.mozilla.org/docs/Web/HTML/Element/progress), ensuring you can stack progress bars, animate them, and place text labels over them.
 
 - We use the `.progress` as a wrapper to indicate the max value of the progress bar.
 - We use the inner `.progress-bar` to indicate the progress so far.

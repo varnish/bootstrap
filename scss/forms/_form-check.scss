@@ -64,7 +64,7 @@
   }
 
   // Use disabled attribute instead of :disabled pseudo-class
-  // Workaround for: https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/11295231
+  // Workaround for: https://developer.microsoft.com/microsoft-edge/platform/issues/11295231
   &[disabled] {
     pointer-events: none;
     filter: none;

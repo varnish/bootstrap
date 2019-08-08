@@ -183,7 +183,7 @@ In practice, you'd call the function and pass in two parameters: the name of the
 
 ### Color contrast
 
-An additional function we include in Bootstrap is the color contrast function, `color-yiq`. It utilizes the [YIQ color space](https://en.wikipedia.org/wiki/YIQ) to automatically return a light (`#fff`) or dark (`#111`) contrast color based on the specified base color. This function is especially useful for mixins or loops where you're generating multiple classes.
+An additional function we include in Bootstrap is the color contrast function, `color-yiq`. It utilizes the [YIQ color space](https://wikipedia.org/wiki/YIQ) to automatically return a light (`#fff`) or dark (`#111`) contrast color based on the specified base color. This function is especially useful for mixins or loops where you're generating multiple classes.
 
 For example, to generate color swatches from our `$theme-colors` map:
 
@@ -362,7 +362,7 @@ Should you need to modify your `$grid-breakpoints`, your changes will apply to a
 
 ## CSS variables
 
-Bootstrap 4 includes around two dozen [CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) in its compiled CSS. These provide easy access to commonly used values like our theme colors, breakpoints, and primary font stacks when working in your browser's Inspector, a code sandbox, or general prototyping.
+Bootstrap 4 includes around two dozen [CSS custom properties (variables)](https://developer.mozilla.org/docs/Web/CSS/Using_CSS_variables) in its compiled CSS. These provide easy access to commonly used values like our theme colors, breakpoints, and primary font stacks when working in your browser's Inspector, a code sandbox, or general prototyping.
 
 ### Available variables
 
