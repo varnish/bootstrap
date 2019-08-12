@@ -1,0 +1,56 @@
+version: 2
+jobs:
+  dist:
+    docker:
+      - image: circleci/node:8.10
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package-lock.json" }}
+            - vs-dependencies-
+      - run: npm install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package-lock.json" }}
+      - run: npm run dist
+      - persist_to_workspace:
+          root: .
+          paths:
+            - dist
+            - node_modules
+  test:
+    docker:
+      - image: circleci/node:8.10
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - run: npm run lint
+      #  disabled because of karma needing a browser to run unit tests
+      # - run: npm run js-test-karma
+  release:
+    docker:
+      - image: circleci/node:8.10
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - store_artifacts:
+          path: dist
+workflows:
+  version: 2
+  builds:
+    jobs:
+      - dist
+      - test:
+          requires:
+            - dist
+      - release:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master

@@ -32,6 +32,9 @@ $utilities: map-merge(
         sm: $box-shadow-sm,
         null: $box-shadow,
         lg: $box-shadow-lg,
+        inset: $box-shadow-inset,
+        inset-sm: $box-shadow-inset-sm,
+        inset-lg: $box-shadow-inset-lg,
         none: none,
       )
     ),
