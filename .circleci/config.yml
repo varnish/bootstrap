@@ -49,7 +49,7 @@ workflows:
             - dist
       - release:
           requires:
-            - test
+            - dist
           filters:
             branches:
               only:
