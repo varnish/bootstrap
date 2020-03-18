@@ -85,25 +85,7 @@ $caution:       $orange !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
-$theme-colors: map-merge(
-  (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "tertiary":   $tertiary,
-    "quaternary": $quaternary,
-    "quinary":    $quinary,
-    "senary":     $senary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark,
-    "white":      $white,
-    "caution":    $caution
-  ),
-  $theme-colors
-);
+
 
 // Set a specific jump point for requesting color jumps
 $theme-color-interval:      8% !default;
@@ -125,6 +107,29 @@ $blue-600: shade-color($blue, 2) !default;
 $blue-700: shade-color($blue, 4) !default;
 $blue-800: shade-color($blue, 6) !default;
 $blue-900: shade-color($blue, 8) !default;
+
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "primary-lightest": $blue-100,
+    "primary-lighter": $blue-200,
+    "primary-light": $blue-300,
+    "secondary":  $secondary,
+    "tertiary":   $tertiary,
+    "quaternary": $quaternary,
+    "quinary":    $quinary,
+    "senary":     $senary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "white":      $white,
+    "caution":    $caution
+  ),
+  $theme-colors
+);
 
 $indigo-100: tint-color($indigo, 8) !default;
 $indigo-200: tint-color($indigo, 6) !default;
@@ -304,7 +309,8 @@ $grid-breakpoints: (
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1200px
+  xl: 1200px,
+  xxl: 1900px
 ) !default;
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
